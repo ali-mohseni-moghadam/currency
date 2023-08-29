@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coinContainer {
+  margin: 50px auto;
+  /* border: 1px solid silver; */
+  /* border-radius: 10px; */
+  width: fit-content;
+  background-color: transparent;
+  border-radius: 10px;
+  background: #121212;
+  box-shadow: inset 5px 5px 10px #070707, inset -5px -5px 10px #1d1d1d;
+}
+
+.input {
+  width: 300px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  padding: 10px;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  background: #121212;
+  box-shadow: 5px 5px 10px #070707, -5px -5px 10px #1d1d1d;
+  color: silver;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+  /* border: 1px solid silver; */
+  background-color: #121212;
+  /* box-shadow: rgba(74, 74, 74, 0.24) 0 3px 8px; */
+}
+
+.input:focus::placeholder {
+  opacity: 0;
+}
